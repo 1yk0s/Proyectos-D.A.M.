@@ -1,8 +1,9 @@
-#Fri, 27 Feb 2026 12:44:37 +0100
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
-
-/Volumes/1YK0SAMAR0K/D.A.M/ProyectosNetBeans/PSP/PSP01/ProcesoLector=
-age accesomultiplefichero;
+package accesomultiplefichero;
 
 import java.io.*;
 
