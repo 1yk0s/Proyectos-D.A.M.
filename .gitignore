@@ -1,0 +1,6 @@
+*.exe
+build/
+nbproject/
+dist/
+nbdist/
+.DS_Store
