@@ -21,11 +21,11 @@ public class DocumentEditor {
             if(osName.toUpperCase().contains("WIN")) {
                 //Windows
                 nuevoProceso = Runtime.getRuntime().exec("java -jar " + 
-                        "C:\\Users\\usuario\\Documents\\NetBeansProjects" +
-                        "\\Editor\\dist\\DocumentEditor.jar");  
+                        "E:\\D.A.M.\\ProyectosNetBeans\\PSP\\PSP01" +
+                        "\\CreaciónDeProcesos\\dist\\DocumentEditor.jar");  
             } else {
                 nuevoProceso = Runtime.getRuntime().exec("java -jar " +
-                        "/home/usuario/NetBeansProjects/Editor/dist/DocumentEditor.jar");
+                        "/Volumes/1YK0SAMAR0K/D.A.M/ProyectosNetBeans/PSP/PSP01/CreaciónDeProcesos/dist/DocumentEditor.jar");
             }
             
         } catch (SecurityException ex) {
