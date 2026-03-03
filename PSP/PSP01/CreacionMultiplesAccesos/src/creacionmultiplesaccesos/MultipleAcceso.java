@@ -28,7 +28,7 @@ public class MultipleAcceso {
             
             for(int i = 0; i <= 20; i++) {
                 nuevoProceso = Runtime.getRuntime().exec("java -jar "+
-                        "CreacionMultiplesAccesos.jar " + " " +  i + " nuevo.txt");
+                        "AccesoMultiple.jar " + " " +  i + " nuevo.txt");
                 /*
                     Creo el nuevo proceso y le indico el número de orden y
                     el fichero que debe utilizar.
