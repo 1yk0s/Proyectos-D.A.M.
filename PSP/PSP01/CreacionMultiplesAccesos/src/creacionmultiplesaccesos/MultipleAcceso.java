@@ -28,14 +28,28 @@ public class MultipleAcceso {
             
             for(int i = 0; i <= 20; i++) {
                 nuevoProceso = Runtime.getRuntime().exec("java -jar "+
-                        "CreacionMultiplesAccesos.jar " + i + " nuevo.txt");
+                        "CreacionMultiplesAccesos.jar " + " " +  i + " nuevo.txt");
                 /*
                     Creo el nuevo proceso y le indico el número de orden y
                     el fichero que debe utilizar.
                 */
                 
                 System.out.println("Creado el proceso " + i);
-                //uestro en consola que he creado otro proceso.
+                //Muestro en consola que he creado otro proceso.
+                
+                /*
+                    PEQUEÑA PAUSA:
+                    Evita el pantallazo azul de memoria de vídeo al no saturar
+                    la creación de procesos en el kernel.
+                */
+                
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e3) {
+                    System.err.println("Error a al parar Fork Bomb");
+                    System.err.println(e3.toString());
+                }
+
             }
             
         } catch (SecurityException ex) {

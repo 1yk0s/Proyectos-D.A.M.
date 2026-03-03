@@ -48,7 +48,11 @@ public class Main {
             nombreFichero = args[1].replace("\\", "\\\\");
             //Hemos recibido la ruta del fichero en la línea de comandos
         else{
+<<<<<<< HEAD
             nombreFichero = "C:\\valor.txt";
+=======
+            nombreFichero = "E:\\1YK0SAMAR0K\\D.A.M\\ProyectosNetBeans\\PSP\\PSP01\\AccesoFicheroSinSincro\\valor.txt";
+>>>>>>> e2e078b (Commit desde otro equipo)
             //Fichero que se utilizará por defecto
           }
       }else{ //GNU/Linux
@@ -56,7 +60,11 @@ public class Main {
             nombreFichero = args[1];
           //Hemos recibido la ruta del fichero en la línea de comandos
           else{
+<<<<<<< HEAD
                nombreFichero = "/home/margye/valor.txt";
+=======
+               nombreFichero = "/Volumes/1YK0SAMAR0K/D.A.M/ProyectosNetBeans/PSP/PSP01/AccesoFicheroSinSincro/valor.txt";
+>>>>>>> e2e078b (Commit desde otro equipo)
                //Fichero que se utilizará por defecto
         }
       }
