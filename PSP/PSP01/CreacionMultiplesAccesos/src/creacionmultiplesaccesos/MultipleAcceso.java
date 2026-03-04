@@ -31,6 +31,11 @@ public class MultipleAcceso {
                 nuevoProceso = Runtime.getRuntime().exec("java -jar "+
                         "AccesoFicheroSinSincro.jar " + " " +  i + " nuevo.txt");
                 
+                //Vuelca la salida estándardel hijo al log
+                nuevoProceso.getInputStream().transferTo(ps);
+                //Vuelca la salida de erroor del hijo al log
+                nuevoProceso.getErrorStream().transferTo(ps);
+                
                 nuevoProceso.waitFor(); //Espero a que termine cada proceso hijo.
                 /*
                     Creo el nuevo proceso y le indico el número de orden y

@@ -1,42 +1,63 @@
+Proceso0: Valor leído del fichero: 83
+Proceso0: Valor escrito en el fichero: 84
 Creado el proceso 0
+Proceso1: Valor leído del fichero: 84
+Proceso1: Valor escrito en el fichero: 85
 Creado el proceso 1
+Proceso2: Valor leído del fichero: 85
+Proceso2: Valor escrito en el fichero: 86
 Creado el proceso 2
+Proceso3: Valor leído del fichero: 86
+Proceso3: Valor escrito en el fichero: 87
 Creado el proceso 3
+Proceso4: Valor leído del fichero: 87
+Proceso4: Valor escrito en el fichero: 88
 Creado el proceso 4
+Proceso5: Valor leído del fichero: 88
+Proceso5: Valor escrito en el fichero: 89
 Creado el proceso 5
+Proceso6: Valor leído del fichero: 89
+Proceso6: Valor escrito en el fichero: 90
 Creado el proceso 6
+Proceso7: Valor leído del fichero: 90
+Proceso7: Valor escrito en el fichero: 91
 Creado el proceso 7
+Proceso8: Valor leído del fichero: 91
+Proceso8: Valor escrito en el fichero: 92
 Creado el proceso 8
+Proceso9: Valor leído del fichero: 92
+Proceso9: Valor escrito en el fichero: 93
 Creado el proceso 9
+Proceso10: Valor leído del fichero: 93
+Proceso10: Valor escrito en el fichero: 94
 Creado el proceso 10
+Proceso11: Valor leído del fichero: 94
+Proceso11: Valor escrito en el fichero: 95
 Creado el proceso 11
+Proceso12: Valor leído del fichero: 95
+Proceso12: Valor escrito en el fichero: 96
 Creado el proceso 12
+Proceso13: Valor leído del fichero: 96
+Proceso13: Valor escrito en el fichero: 97
 Creado el proceso 13
+Proceso14: Valor leído del fichero: 97
+Proceso14: Valor escrito en el fichero: 98
 Creado el proceso 14
+Proceso15: Valor leído del fichero: 98
+Proceso15: Valor escrito en el fichero: 99
 Creado el proceso 15
+Proceso16: Valor leído del fichero: 99
+Proceso16: Valor escrito en el fichero: 100
 Creado el proceso 16
+Proceso17: Valor leído del fichero: 100
+Proceso17: Valor escrito en el fichero: 101
 Creado el proceso 17
+Proceso18: Valor leído del fichero: 101
+Proceso18: Valor escrito en el fichero: 102
 Creado el proceso 18
+Proceso19: Valor leído del fichero: 102
+Proceso19: Valor escrito en el fichero: 103
 Creado el proceso 19
-Creado el proceso 20
-Creado el proceso 0
-Creado el proceso 1
-Creado el proceso 2
-Creado el proceso 3
-Creado el proceso 4
-Creado el proceso 5
-Creado el proceso 6
-Creado el proceso 7
-Creado el proceso 8
-Creado el proceso 9
-Creado el proceso 10
-Creado el proceso 11
-Creado el proceso 12
-Creado el proceso 13
-Creado el proceso 14
-Creado el proceso 15
-Creado el proceso 16
-Creado el proceso 17
-Creado el proceso 18
-Creado el proceso 19
+Proceso20: Valor leído del fichero: 103
+Proceso20: Valor escrito en el fichero: 104
 Creado el proceso 20
