@@ -17,9 +17,10 @@ import java.io.PrintStream;
 public class MultipleAcceso {
     public static void main(String[] args) {
         Process nuevoProceso; //Se define una variable de tipo Process
+        PrintStream ps = null; //Se declara el Stream
         
         try {
-            PrintStream ps = new PrintStream(
+                ps = new PrintStream(
                 new BufferedOutputStream(
                     new FileOutputStream(
                         new File("javalog.txt"), true)), true);
@@ -29,6 +30,8 @@ public class MultipleAcceso {
             for(int i = 0; i <= 20; i++) {
                 nuevoProceso = Runtime.getRuntime().exec("java -jar "+
                         "AccesoFicheroSinSincro.jar " + " " +  i + " nuevo.txt");
+                
+                nuevoProceso.waitFor(); //Espero a que termine cada proceso hijo.
                 /*
                     Creo el nuevo proceso y le indico el número de orden y
                     el fichero que debe utilizar.
@@ -36,19 +39,6 @@ public class MultipleAcceso {
                 
                 System.out.println("Creado el proceso " + i);
                 //Muestro en consola que he creado otro proceso.
-                
-                /*
-                    PEQUEÑA PAUSA:
-                    Evita el pantallazo azul de memoria de vídeo al no saturar
-                    la creación de procesos en el kernel.
-                */
-                
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e3) {
-                    System.err.println("Error a al parar Fork Bomb");
-                    System.err.println(e3.toString());
-                }
 
             }
             
@@ -58,6 +48,11 @@ public class MultipleAcceso {
         } catch (Exception ex) {
             System.err.println("Ha ocurrido un error, descripción: " +
                     ex.toString());
+        } finally {
+            if(ps != null) {
+                ps.flush(); //Vacía el Buffer
+                ps.close(); //Cierra el stream
+            } 
         }
     }
 }
