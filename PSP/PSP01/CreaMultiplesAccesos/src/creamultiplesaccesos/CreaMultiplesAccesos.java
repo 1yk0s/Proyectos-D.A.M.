@@ -17,7 +17,7 @@ import java.io.RandomAccessFile;
  * @author kevin
  */
 public class CreaMultiplesAccesos {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args)  {
         Process nuevoProceso = null;
         String nombreFichero = null;
         File archivo = null;
@@ -33,7 +33,7 @@ public class CreaMultiplesAccesos {
                 nombreFichero = args[0].replace("\\", "\\\\");
                 //He recibido la ruta del fichero en la línea de comandos
             } else {
-                nombreFichero = "E:\\1YK0SAMAR0K\\D.A.M\\ProyectosNetBeans\\PSP\\PSP01\\AccesoFicheroConSincro\\valor.txt"; //Windows
+                nombreFichero = "E:\\D.A.M\\ProyectosNetBeans\\PSP\\PSP01\\AccesoFicheroConSincro\\valor.txt"; //Windows
                 // Fichero que se utilizará por defecto
             }
         } else { //GNU/Linux

@@ -37,6 +37,8 @@ public class AccesoDeMultipleFichero {
                     new BufferedOutputStream(
                         new FileOutputStream(
                             new File("javalog.txt"), true)), true);
+                System.setOut(ps);
+                System.setErr(ps);
             } catch (Exception e) {
                 System.err.println("P" + orden + " No he podido redirigir salidas");
             }
@@ -53,7 +55,7 @@ public class AccesoDeMultipleFichero {
                 nombreFichero = args[1].replace("\\", "\\\\");
                 //He recibido la ruta del fichero en la línea de comandos
             } else {
-                nombreFichero = "E:\\1YK0SAMAR0K\\D.A.M\\ProyectosNetBeans\\PSP\\PSP01\\AccesoFicheroConSincro\\valor.txt"; //Windows
+                nombreFichero = "E:\\D.A.M\\ProyectosNetBeans\\PSP\\PSP01\\AccesoFicheroConSincro\\valor.txt"; //Windows
                 //Fichero que se utilizará por defecto
             }
         } else { //GNU/Linux
@@ -67,6 +69,7 @@ public class AccesoDeMultipleFichero {
         
         //Preparo el acceso al fichero
         archivo = new File(nombreFichero);
+        
         for (int i = 0; i < 100; i++) {
             try {
                 raf = new RandomAccessFile(archivo, "rwd"); //Abro el fichero
@@ -80,7 +83,7 @@ public class AccesoDeMultipleFichero {
                     Obtengo el objeto que representa el bloqueo para después
                     poder liberarlo.
                 */
-                System.out.println("Proceso" + orden + ": ENTRA sección");
+                System.out.println("Proceso " + orden + ": ENTRA sección");
                 
                 //Lectura del fichero
                 valor = raf.readInt(); //Lee el valor
@@ -88,7 +91,7 @@ public class AccesoDeMultipleFichero {
                 raf.seek(0); //Vuelvo a colocarme en el principio del fichero
                 raf.writeInt(valor); //Escribo el valor.
                 
-                System.out.println("Proceso" + orden + ": SALE sección");
+                System.out.println("Proceso " + orden + ": SALE sección");
                 
                 bloqueo.release(); //Libero el bloqueo del canal del fichero
                 bloqueo = null;
@@ -96,7 +99,7 @@ public class AccesoDeMultipleFichero {
                 //Fin de sección crítica
                 //**********************
                 
-                System.out.println("Proceso" + orden + ": valor escrito " + valor);
+                System.out.println("Proceso " + orden + ": valor escrito " + valor);
                 
             } catch (Exception e) {
                 System.err.println("P" + orden + " Error al acceder al fichero");
