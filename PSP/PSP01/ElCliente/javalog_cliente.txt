@@ -1,0 +1,108 @@
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: no puede leer.
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 0
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 1
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 2
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 3
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 4
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 5
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 6
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 7
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 8
+Cliente: SALE sección
+Cliente: ENTRA sección
+Cliente: valor escrito 9
+Cliente: SALE sección

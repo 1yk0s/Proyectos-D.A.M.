@@ -1,0 +1,684 @@
+Suministrador: ENTRA sección
+Suministrador: valor escrito 0
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
+Suministrador: ENTRA sección
+Suministrador: no puede escribir 
+Suministrador: SALE sección
