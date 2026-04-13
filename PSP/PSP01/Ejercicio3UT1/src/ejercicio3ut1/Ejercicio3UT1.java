@@ -43,15 +43,7 @@ public class Ejercicio3UT1 {
         
         String nombre = "Juan";
         
-        
-        /*
-        
-            Se construye el comando completo con el nombre como argumento
-            -cp . indica que busque las clases en el directorio actual
-        
-        */
-        
-        String comando = "java -cp . Ejercicio2UT1 " + nombre;
+       
         
         /*
         
@@ -62,6 +54,35 @@ public class Ejercicio3UT1 {
         
         
         Process p = null;
+        
+        /*
+        
+        Obtengo automáticalmente el directorio donde están los
+        archivos .class compilados por NetBeans obteniendo 
+        mediante System.getProperty("user.dir") el directorio actual
+        y sumándole la ruta de ubicaciónd ne las clases.
+        
+        */
+        
+        String directorioClases = "E:\\D.A.M\\ProyectosNetBeans\\PSP\\PSP01\\" +
+                                    "\\Ejercicio2UT1\\build\\classes\\";
+        
+        
+                /*
+        
+                    Se construye el comando completo con el nombre como argumento
+                    -cp . indica que busque las clases en el directorio actual.
+                    Se construye el comando con la ruta absoluta para que Java
+                    encuentre Ejercicio3UT1.class
+        
+                */
+        
+        String comando = "java -cp " + directorioClases + 
+                " ejercicio2ut1.Ejercicio2UT1 " + nombre;
+        
+        //Se muestra el comando para verificar quee es correcto
+        
+        System.out.println("Comando: " + comando);
         
         
             /*
@@ -89,6 +110,18 @@ public class Ejercicio3UT1 {
                 se recibe aquí:
             
             */
+            
+            /*
+            
+                Se espera a que el proceso hijo termine ANTES
+                de leer sus streames, para garantizar que toda
+                la salida está disponible.
+            
+            */
+            
+            p.waitFor();
+            
+            //Se lee la salida normal
             
             InputStream is = p.getInputStream();
             
@@ -153,7 +186,7 @@ public class Ejercicio3UT1 {
             
             */
             
-            InputStream er = p.getInputStream();
+            InputStream er = p.getErrorStream();
             
             /*
             
@@ -218,7 +251,8 @@ public class Ejercicio3UT1 {
             
             */
             
-            exitVal = p.waitFor();
+            //.exitValue() simplemente recoge el código que ya está disponible.
+            exitVal = p.exitValue();
             
             
             //Se muestra el código de salida
@@ -227,9 +261,9 @@ public class Ejercicio3UT1 {
             
             
             
-        } catch (InterruptedException e) {
+        } catch (IllegalThreadStateException e) {
             
-            //Ocurre si la espera es interrumpida por otro hilo
+            //Ocurre si el proceso aún no ha terminado.
             
             e.printStackTrace();
             
