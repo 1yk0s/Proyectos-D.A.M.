@@ -31,6 +31,20 @@ public class ListarProcesos {
         //Se usa ProcessBuilder en lugar de Runtime
         
             //En Windows: "tasklist" / En Linux: "ps", "-e"
+
+            /*
+                ProcessBuilder permite crear y configurar procesos externos
+                de forma más flexible que Runtime.exec().
+                Esta es la forma más moderna y recomendada de lanzar procesos.
+        
+                Prepara el proceso, pero no lo ejecuta:
+                ProcessBuilder pb = new ProcessBuilder("tasklist");
+        
+                Lanzar el proceso, hay que llamar a start():
+                Process proceso = pb.start();
+            
+            */
+            
             ProcessBuilder pb = new ProcessBuilder("tasklist");
             
             try {
@@ -41,6 +55,54 @@ public class ListarProcesos {
                     Para ver la salida del comando, necesitamos
                     leer su "InputStream"
                 */
+                
+                /*
+                    ProcessBuilder permite crear y configurar procesos externos
+                    de forma más flexible que Runtime.exec().
+                    Esta es la forma más moderna y recomendada de lanzar procesos.
+        
+                    Prepara el proceso, pero no lo ejecuta:
+                    ProcessBuilder pb = new ProcessBuilder("tasklist");
+        
+                    Lanzar el proceso, hay que llamar a start():
+                    Process proceso = pb.start();
+                */
+                
+                /*
+                
+                proceso.getInputStream() => Obtiene el canal de salida del
+                proceso hijo.
+                Lo que el proceso escribe con System.out.println() llega aquí
+                como bytes crudos.
+                
+                new InputStreamReader(proceso.getInputStreamReader()) =>
+                Convierte los bytes crudos que llegan del proceso hijo en 
+                caracteres de texto legibles.
+                
+                BufferedReader letor = new BufferedReader ( 
+                        new InputStreamReader(proceso.getInputStream())) =>
+                Envuelve todo añadiendo un buffer que permite leer línea a línea
+                con readLine() en lugar de carácter a carácter:
+                
+                
+                */
+                
+                
+                /*
+                
+                Leer desde teclado:
+                
+                BufferedReader lector = new BufferedReader(
+                    new InputStreamReader(System.in));
+                
+                Leer desde un proceso hijo:
+                
+                BufferedReader lector = new BufferedReader(
+                    new InputStreamReader(proceso.getInputStream()));
+                
+                
+                */
+                
                 
                 BufferedReader lector = new BufferedReader(
                     new InputStreamReader(proceso.getInputStream()) );
