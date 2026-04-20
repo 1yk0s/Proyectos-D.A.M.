@@ -56,3 +56,32 @@ public class Lanzador {
     }
     
 }
+
+
+/*
+
+
+1. Runtime.getRuntime():
+    No se crea un "Runtime" nuevo con new, sino que le pido
+    al sistema el que ya está funcionando.
+
+2. exec(String comando):
+    Similar a escirbir en la terminal (CMD o BASH).
+
+3. Gestión de Excepciones:
+    Siempre es necesario un bloque try-catch porque el sistema
+    puede denegarte el permiso o no encontrar el archivo, de 
+    ahí la excepción de tipo IOException.
+
+
+*/
+
+/*
+
+
+De esta manera, se ha creado el priceso hijo.
+Este programa Java es el proceso padre y Notepad, es el proceso
+hijo.
+
+
+*/
