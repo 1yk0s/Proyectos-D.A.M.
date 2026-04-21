@@ -56,3 +56,20 @@ public class MiHilo extends Thread {
     }
     
 }
+
+
+/*
+
+
+1. El Main no espera:
+    El mensaje "El hilo principal (Main) ha terminado..."
+    salió antes que el trabajo de los hilos.
+    Eso es porque el main lanza los hilos y sigue su camino; no se queda bloqueado.
+
+2. Entrelazado:
+    Los hilos A y B se han ido turnando (B1, A1, B2, A2...).
+    Esto es el Planificador del Sistema Operativo haciendo un Round - Robin
+    dándole un poquito de tiempo de CPU a cada uno.
+
+
+*/
