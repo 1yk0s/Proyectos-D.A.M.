@@ -41,7 +41,7 @@ public class ordenarNumeros {
         
         /*
         
-            System.in recibe los bytes del teclado.
+            System.in recibe los bytes del teclado (Entrada estándar).
             InputStreamReader convierte los bytes a caracteres
             BufferedReader permite leer línea a línea con readLine()
         

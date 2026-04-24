@@ -11,7 +11,7 @@ import java.util.Random;
  *
  * @author kevin
  */
-public class Ejercicio02PSP01 {
+public class aleatorios {
 
     /**
      * @param args the command line arguments
