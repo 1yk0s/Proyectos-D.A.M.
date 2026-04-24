@@ -5,6 +5,8 @@
  */
 package pruebaaleatorios;
 
+import java.util.Random;
+
 /**
  *
  * @author kevin
@@ -16,6 +18,36 @@ public class PruebaAleatorios {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        /*
+            Implementa una aplicación llamada 'aleatorios', que genere al menos
+            40 números aleatorios (entre 0 y 100), y que los escriba en su salida
+            estándar.
+        */
+        
+        //PASO 1: CREAR EL GENERADOR DE NÚMEROS ALEATORIOS
+        
+        Random random = new Random();
+        
+        //PASO 2: DEFINIR CUÁNTOS NÚMEROS GENERAR
+        
+        int cantidad = 40;
+        
+        //PASO 3: GENERAR Y MOSTRAR LOS NÚMEROS
+        
+        // System.out.println("=== NÚMEROS ALEATORIOS GENERADOS ===");
+        
+        for (int i = 1; i <= cantidad; i++) {
+            
+            int numero = random.nextInt(101);
+            
+            //System.out.println("Número " + i + ": " + numero);
+            System.out.println(numero);
+        }
+        
+        // System.out.println("=====================================");
+        // System.out.println("Total de números generados: " + cantidad);
+        
     }
     
 }
