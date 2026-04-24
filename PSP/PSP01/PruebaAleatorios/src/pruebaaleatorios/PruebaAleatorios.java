@@ -49,5 +49,4 @@ public class PruebaAleatorios {
         // System.out.println("Total de números generados: " + cantidad);
         
     }
-    
 }
