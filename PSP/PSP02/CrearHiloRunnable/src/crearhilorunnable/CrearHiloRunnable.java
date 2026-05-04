@@ -41,5 +41,4 @@ public class CrearHiloRunnable implements Runnable {
         
         //Se invoca al método start del hilo hilo1.
     }
-    
 }
