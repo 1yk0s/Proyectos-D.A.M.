@@ -5,16 +5,65 @@
  */
 package dormirelhilo;
 
+/*
+    Cuando se ejecuta una aplicación de ventana basada en un formulario
+    JFrame, la máquina virtual de Java crea tres hilos por defecto:
+
+    1. El principal, donde corre el método Main() que inicia la aplicación
+    2. El conocido como GC (recolector de basura), donde corre el código
+       que se encarga de optimizar los recursos de memoria.
+    3. El conocido como EDT (hilo despachador de eventos) de la AWT
+       (paquete abstracto de herramientas de ventana), donde corre el código
+       encargado de atender las solicitudes de dibujo del contenido de la ventana,
+       y de atender a los eventos de ratón o teclado provocados por el usuario
+       (como la ejecución del código programado para cuando el usuario hace
+       click en un botón)
+
+    Puesto que el hilo EDT puede llegar a ser el más ocupado de los tres con
+    diferencia, debe de ponerse especial cuidado en no sobrecargarlo demasiado.
+
+    En esta aplicación queremos realizar una cuenta de 1 a 20, cuyo avance
+    se vaya reflejando en el JPanel que he colocado a modo de marcador.
+    La cuenta se pondrá en marcha cuando el usuario haga click en un botón.
+
+    Obviamente, para reflejar ese avance es necesario repintar el JPanel a cada
+    nuevo valor (lo que se le solicita al hilo EDT - que es el encargado de ello,
+    mediante una llamada al método repaint() del JPanel).
+
+    El primer botón intenta hacerlo sin poner más hilos en juego.
+    No lo consigue.
+    Y no lo consigue porque precisamente el hilo que recibe las peticiones de
+    pintado, es justo el que las está enviando a cada nuevo valor de la cuenta.
+    Y claro, se satura.
+    Sólo cuando finaliza la cuenta (justo en el 20), puede atender por fin a la
+    solicitud de dibujo del marcador.
+    
+    Por el contrario, el segundo y el tercer botón delega en un hilo auxiliar,
+    tanto la cuenta como las peticiones de repintado del marcador.
+    Además este hilo auxiliar, en el caso del Botón 3 se duerme una décima de 
+    segundo por cuenta, para que EDT tenga una buena ocasión de atender la
+    petición de dibujo que le acaba de enviar.
+    El resultado es el esperado por fin.
+*/
+
+import javax.swing.JFrame;
+
 /**
  *
  * @author kevin
  */
-public class JFrameVentana extends javax.swing.JFrame {
+public class JFrameVentana extends JFrame {
+    
+    //Marcador del formulario
+    JPanelMarcador marcardor;
 
     /**
      * Creates new form JFrameVentana
      */
+    
+    //Constructor
     public JFrameVentana() {
+        
         initComponents();
     }
 

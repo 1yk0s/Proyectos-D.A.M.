@@ -9,13 +9,15 @@ package dormirelhilo;
  *
  * @author kevin
  */
-public class HiloAuxiliar {
+public class HiloAuxiliar extends Thread {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    //Esta clase hereda de la clase Thread.
+    
+    //Marcador local
+    JpanelMarcador miMarcador;
+
     
 }

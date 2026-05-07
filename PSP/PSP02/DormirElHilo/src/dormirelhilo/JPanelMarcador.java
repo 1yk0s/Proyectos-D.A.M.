@@ -5,17 +5,69 @@
  */
 package dormirelhilo;
 
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
+import javax.swing.JPanel;
+import java.awt.FontMetrics;
+
 /**
  *
  * @author kevin
  */
-public class JPanelMarcador extends javax.swing.JPanel {
+public class JPanelMarcador extends JPanel {
+    
+    //valor que mostrará el panel
+    public int valor;
 
     /**
      * Creates new form JPanelMarcador
      */
+    
+    //Constructor
     public JPanelMarcador() {
-        initComponents();
+        //valor por defecto
+        valor = 0;
+        //dimensiona el JPanel
+        this.setSize(250, 50);
+        //Establece la fuente del texto dibujando
+        this.setFont(new Font("Tahoma", 0, 48));
+        
+    }
+    
+    @Override
+    public void paintComponent(Graphics g) {
+        /*
+            sombrea el método paintComponent(g) que pinta el JPanel,
+            para que lo haga según el valor actual
+        */
+        super.paintComponent(g);
+        //Anchura del panel
+        int anchuraPanel = this.getWidth();
+        //Convierto el entero en una cadena de texto
+        String strValor = String.valueOf(valor);
+        /*
+            Obtengo el contexto métrico de la fuente con la que
+            escribiremos la cadena
+        */
+        FontMetrics fontMetrics = g.getFontMetrics();
+        //Mide la anchura que ocupará la cadena de texto con la fuente elegida
+        int anchuraValor = fontMetrics.stringWidth(strValor);
+        
+        g.setColor(Color.black);
+        g.fillRect(0, 0, anchuraPanel, this.getHeight());
+        
+        /*
+            Dibuja la cadena: A 5 puntos de distancia entre la base de
+            la línea y el borde inferior, y alineada a la derecha.
+        */
+        
+        if (valor > 0 ) {
+            g.setColor(Color.yellow);
+            g.drawString(strValor, anchuraPanel - anchuraValor, 
+                    fontMetrics.getAscent() - 5);
+        }
+        
     }
 
     /**
