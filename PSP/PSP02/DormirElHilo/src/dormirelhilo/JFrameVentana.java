@@ -55,7 +55,7 @@ import javax.swing.JFrame;
 public class JFrameVentana extends JFrame {
     
     //Marcador del formulario
-    JPanelMarcador marcardor;
+    JPanelMarcador marcador;
 
     /**
      * Creates new form JFrameVentana
@@ -65,6 +65,16 @@ public class JFrameVentana extends JFrame {
     public JFrameVentana() {
         
         initComponents();
+        
+        /*
+            Asigna un nuevo marcador y lo posiciona en el formulario a
+            5 puntos de los márgenes izquierdo y supeperior
+        */
+        marcador = new JPanelMarcador();
+        marcador.setLocation(5, 5);
+        
+        //Agrega el marcador al formulario
+        this.add(marcador);
     }
 
     /**
@@ -76,22 +86,98 @@ public class JFrameVentana extends JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel1.setText("Marcador que muestra la cuenta de 1 a 20");
+        jLabel1.setMaximumSize(new java.awt.Dimension(220, 16));
+        jLabel1.setMinimumSize(new java.awt.Dimension(220, 16));
+        jLabel1.setPreferredSize(new java.awt.Dimension(220, 16));
+
+        jButton1.setText("Sin hilos auxiliares");
+
+        jButton2.setText("Con un hilo auxiliar sin dormir");
+
+        jButton3.setText("Con un hilo auxiliar y dormido");
+
+        jButton4.setText("Borrar marcador");
+        jButton4.setSelected(true);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(30, 30, 30)
+                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(26, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 284, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(51, 51, 51)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 90, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jButton2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton3)
+                    .addComponent(jButton4))
+                .addGap(14, 14, 14))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //Código que se ejecuta cuando el usuario hace click en el primer botón
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        for (int i = 1; i <= 20; i++) {
+            //Incrementa el marcador
+            marcador.valor = i;
+            //Solicita el repintado del marcador
+            marcador.repaint();
+        }
+    }
+    
+    //Código que se ejecuta cuando el usuario hace clic en el segundo botón
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+        //Crea un hilo pasándole como argumento el marcador.
+        Thread thIzquierdo = new HiloAuxiliar(false, marcador);
+        //Inicia el hilo
+        thIzquierdo.start();
+    }
+    
+    //Código que se ejecuta cuando el usuario hace clic en el tercer botón
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
+        //Crea un hilo pasándole como argumento el marcador
+        Thread thIzquierdo = new HiloAuxiliar(true, marcador);
+        //inicia el hilo
+        thIzquierdo.start();
+    }
+    
+    //Código que se ejecuta cuando el usuario hace clic en el botón derecho
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
+        marcador.valor = 0;
+        //Repinta el marcador para borrarlo (si tuviera algo)
+        marcador.repaint();
+    }
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -128,5 +214,10 @@ public class JFrameVentana extends JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
